@@ -190,10 +190,22 @@
     width: 100%;
     height:800px ;
     margin-top: 100px;
-    background-color: #DD2A7B;
     
 }
+.second-h2{text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'DynaPuff', cursive;
 
+
+}
+.second-div-boxes{display: flex; justify-content: space-between; max-width: 1920px; width: 100%;height: 500px; margin-top: 40px;}
+.second-left-box{max-width:400px;width: 100%; height: 450px;}
+.second-middle-box{max-width:400px;width: 100%; height: 450px;}
+.second-right-box{max-width:400px;width: 100%; height: 450px;}
+.second-div-imgs{max-width:400px ;width: 100%;}
+.second-div-h4{font-size: 15px;  font-family: 'DynaPuff', cursive;font-weight: bold;margin-bottom: 15px;}
+.second-div-p{font-size: 13px;font-family:'Sarabun', sans-serif;font-weight:900;;border-width:3px; border-style:solid; border-color:olivedrab;}
 /*FOOTER*/
 .footer{
     max-width: 1920px;
