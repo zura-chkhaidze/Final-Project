@@ -14,7 +14,7 @@
     max-width: 1920px;
     width: 100%;
     height: 140px;
-    background-image: url(../images/nature-bg.jpg);
+    background-image: url(../images/bg-image.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@
 .second-mine-div{
     max-width: 1920px;
     width: 100%;
-    height:800px ;
+    height:600px;
     margin-top: 100px;
     
 }
@@ -206,6 +206,44 @@
 .second-div-imgs{max-width:400px ;width: 100%;}
 .second-div-h4{font-size: 15px;  font-family: 'DynaPuff', cursive;font-weight: bold;margin-bottom: 15px;}
 .second-div-p{font-size: 13px;font-family:'Sarabun', sans-serif;font-weight:900;;border-width:3px; border-style:solid; border-color:olivedrab;}
+
+.animation{
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 200px;
+}
+.click{margin-left: 1000px;
+    transform: translateY(180px);
+
+}
+.news-button{
+    background-color:darkorange;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 30px 30px;
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tractor{
+    position: absolute;
+    max-width:500px;
+    width: 100%;
+    animation:tractor-animation 7s infinite 1s alternate-reverse linear;
+}
+@keyframes tractor-animation{
+    0% {left:0;}
+    20% {left: 150px;}
+    50% {left:250px ;}
+    70% {left:400px ;}
+    100%{left:500px;} 
+}
+
 /*FOOTER*/
 .footer{
     max-width: 1920px;
