@@ -1,4 +1,9 @@
 /*Header*/
+:root{
+    --title-color:#63A81E;
+    
+
+}
 .header{position: fixed;
     height: 140px;
 	top: 0;
@@ -88,7 +93,7 @@
 .title{
     font-size:25px;
     font-weight: bolder;
-    color: #63A81E;
+    color:var(--title-color);
     text-align: center;
     font-family: 'DynaPuff', cursive;
 }
@@ -196,7 +201,7 @@
     
 }
 .second-h2{text-align: center;
-    color: #63A81E;
+    color:var(--title-color);
     font-size: 25px;
     font-weight: bolder;
     font-family: 'DynaPuff', cursive;
@@ -368,7 +373,7 @@
 .plant-shop-main-title{
     font-size:25px;
     font-weight: bolder;
-    color: #63A81E;
+    color:var(--title-color);
     text-align: center;
     font-family: 'DynaPuff', cursive;
 }
@@ -444,7 +449,7 @@ margin-bottom: 20px;
 .news-title{
     font-size:25px;
     font-weight: bolder;
-    color: #63A81E;
+    color:var(--title-color);
     text-align: center;
     font-family: 'DynaPuff', cursive;
 }
@@ -618,7 +623,7 @@ margin-bottom: 20px;
     transform: translateY(80px);
 }
 .h5{
-    color:#4CAF50;
+    color:var(--title-color);
     font-weight: bold;
     font-size:20px;
     font-family: 'DynaPuff', cursive;
