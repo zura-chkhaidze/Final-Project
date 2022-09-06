@@ -123,17 +123,34 @@
     cursor: pointer;
     margin-top: 600px;
   }
-  .nav {
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  .topnav #myLinks {
     display: none;
   }
-  .burger-bar {
-    display: flex;
-    justify-content: space-between;
-    font-size: 40px;
-    color: white;
-    width: 40px;
+  .topnav a {
+    color:black;
+    font-size:20px;
+    display: block;
+ }
+ .topnav a.icon {
+    display: block;
+    position: absolute;
+    right:0;
+    top: 0;
+  }
+  .topnav a:hover {
+    font: size 25px;
+  }
+  
+  .active {
+    color:black
+    
   }
 }
+
 @media (max-width: 425px) {
   .title {
     font-size: 15px;
@@ -162,18 +179,6 @@
   }
   .plant-shop-animation {
     margin-top: 1000px;
-  }
-}
-@media (max-width: 920px) {
-  .nav {
-    display: none;
-  }
-  .burger-bar {
-    display: flex;
-    justify-content: space-between;
-    font-size: 40px;
-    color: white;
-    width: 40px;
   }
 }
 @media (max-width: 920px) {
