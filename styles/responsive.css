@@ -204,4 +204,24 @@
     font-size:15px;
   }
 }
+/* about as rsponsive*/
+@media (max-width: 600px) {
+  .info-icons{
+    font-size:20px;
+    text-align: center;
+    color:blueviolet;
+}
+.info-title{
+  font-size:15px;
+  text-align: center;
+  font-family: 'Knewave', cursive;
+}
+.info-info{
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Knewave', cursive;
+}
+}
 
