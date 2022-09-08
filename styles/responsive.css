@@ -1,10 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* index responsive*/
 @media (max-width: 1115px) {
   .boxes-div {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 1024px;
     width: 80%;
     height: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .animation {
@@ -15,7 +26,26 @@
   }
   .click {
     margin-left: 800px;
-    transform: translateY(180px);
+    -webkit-transform: translateY(180px);
+        -ms-transform: translateY(180px);
+            transform: translateY(180px);
+  }
+  @-webkit-keyframes tractor-animation {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 70px;
+    }
+    50% {
+      left: 150px;
+    }
+    70% {
+      left: 250px;
+    }
+    100% {
+      left: 270px;
+    }
   }
   @keyframes tractor-animation {
     0% {
@@ -40,6 +70,8 @@
     height: 300px;
     margin-top: 100px;
     background-color: rgb(19, 46, 19);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .footer-box-4 {
@@ -49,7 +81,26 @@
 @media (max-width: 1024px) {
   .click {
     margin-left: 700px;
-    transform: translateY(180px);
+    -webkit-transform: translateY(180px);
+        -ms-transform: translateY(180px);
+            transform: translateY(180px);
+  }
+  @-webkit-keyframes tractor-animation {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 70px;
+    }
+    50% {
+      left: 110px;
+    }
+    70% {
+      left: 140px;
+    }
+    100% {
+      left: 150px;
+    }
   }
   @keyframes tractor-animation {
     0% {
@@ -72,8 +123,12 @@
     display: none;
   }
   .big-shop {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .button-respo {
     background-color: #4caf50;
@@ -91,10 +146,19 @@
 }
 @media (max-width: 920px) {
   .second-div-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 450px;
   }
   .tractor {
@@ -107,8 +171,12 @@
     display: none;
   }
   .big-click {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .news-button-respo {
     background-color: darkorange;
@@ -127,7 +195,9 @@
     overflow: hidden;
     background-color: darkolivegreen;
     position: relative;
-    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+        -ms-transform: translateY(-50px);
+            transform: translateY(-50px);
   }
   .topnav #myLinks {
     display: none;
@@ -176,9 +246,13 @@
 /* plant shop responsive*/
 @media (max-width: 1315px) {
   .grid-container {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 400px 400px;
     grid-template-columns: 400px 400px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
   .plant-shop-animation {
@@ -187,9 +261,13 @@
 }
 @media (max-width: 920px) {
   .grid-container {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 600px;
     grid-template-columns: 600px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
   .plant-shop-animation {
@@ -201,9 +279,13 @@
 }
 @media (max-width: 750px) {
   .grid-container {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 370px;
     grid-template-columns: 370px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
   .turtle {
@@ -216,17 +298,27 @@
 /* some news responsive*/
 @media (max-width: 1300px) {
   .news-main-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 600px;
   }
   .middle-box-1 {
     margin-top: -90px;
   }
   .news-main-box-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 @media (max-width: 1200px) {
@@ -242,8 +334,12 @@
     margin-top: 1150px;
   }
   .news-main-box-1 {
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media (max-width: 600px) {
@@ -254,19 +350,25 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .news-title {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .news-title-1 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     margin-top: 1800px;
   }
   .news-main-box {
