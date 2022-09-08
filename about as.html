@@ -1,137 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Plants Shop">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Zura Chkhaidze">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Plants Shop" />
+    <meta name="keywords" content="plant shop,nature,sell,buy,news,more info,inside ,outside" />
+    <meta name="author" content="Zura Chkhaidze" />
+    <meta property="og:url" content="https://zura-chkhaidze.github.io/Final-Project/" />
+    <meta property="og:type" content="online shop" />
+    <meta property="og:title" content="plants" />
+    <meta property="og:description" content="plant shop,nature,sell,buy,news,more info,inside ,outside" />
+    <meta property="og:image" content="https://5.imimg.com/data5/IU/CU/MY-21174210/indoor-plants-500x500.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
     <title>Plants shop</title>
-</head>
-<body class="bg-color">
+  </head>
+  <body class="bg-color">
     <header class="header">
-        <div class="bg-img">
-            <div class="topnav">
-                <a href="index.html" class="active"><i class="fa-solid fa-leaf"></i></a>
-                <div id="myLinks">
-                  <a href="index.html">Main Page</a>
-                  <a href="plants shop.html">Plants Shop</a>
-                  <a href="Some news.html">Some News</a>
-                  <a href="about as.html">About As</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                  </a>
-            </div>  
-        </div> 
+      <div class="bg-img">
+        <div class="topnav">
+          <a href="index.html" class="active"
+            ><i class="fa-solid fa-leaf"></i
+          ></a>
+          <div id="myLinks">
+            <a href="index.html">Main Page</a>
+            <a href="plants shop.html">Plants Shop</a>
+            <a href="Some news.html">Some News</a>
+            <a href="about as.html">About As</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
     </header>
     <section>
-        <div class="map">
-            <iframe class="google map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23688.06399086613!2d42.03634965!3d42.08587815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1662118730468!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      <div class="map">
+        <iframe
+          class="google map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23688.06399086613!2d42.03634965!3d42.08587815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sge!4v1662118730468!5m2!1sen!2sge"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
     <section>
-        <div class="contact-div">
-            <h5 class="h5">Support</h5>
-            <div class="h2-div"><h2 class="h2">Contact us to get more information</h2></div>
-            <div class="form-tag">
-                <div class="description">
-                    <form action="#">
-                        <label for="textarea"></label>
-                        <textarea class="textarea" name="text" id="textarea" placeholder="type..."></textarea>
-                    </form>
-                </div>
-                <div class="user-names">
-                    <form action="#">
-                        <label for="name"></label>
-                        <input type="text" name="first name" id="first name" placeholder="First Name">
-                    </form>
-                    <form action="#">
-                        <label for="name"></label>
-                        <input type="text" name="last name" id=" last name" placeholder="Last Name">
-                    </form>
-                    <form action="#">
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="Email">
-                    </form>
-                    <form action="#">
-                       <div class="button-div"><button type="button" form="form1" value="button">SEND</button></div> 
-                    </form> 
-                </div>   
-            </div>
+      <div class="contact-div">
+        <h5 class="h5">Support</h5>
+        <div class="h2-div">
+          <h2 class="h2">Contact us to get more information</h2>
         </div>
+        <div class="form-tag">
+          <div class="description">
+            <form action="#">
+              <label for="textarea"></label>
+              <textarea
+                class="textarea"
+                name="text"
+                id="textarea"
+                placeholder="type..."
+              ></textarea>
+            </form>
+          </div>
+          <div class="user-names">
+            <form action="#">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="first name"
+                id="first name"
+                placeholder="First Name"
+              />
+            </form>
+            <form action="#">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="last name"
+                id=" last name"
+                placeholder="Last Name"
+              />
+            </form>
+            <form action="#">
+              <label for="email"></label>
+              <input type="email" id="email" name="email" placeholder="Email" />
+            </form>
+            <form action="#">
+              <div class="button-div">
+                <button
+                  type="button"
+                  form="form1"
+                  value="button"
+                  id="click me"
+                  class="send"
+                >
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
-        <div class="info-main-div">
-            <div>
-                <p class="info-icons"><i class="fa-sharp fa-solid fa-phone-volume"></i></p>
-                <p class="info-title">Phone</p>
-                <p class="info-info">+995-12-34-56</p>
-                <p class="info-info">+995-56-34-12</p>
-            </div>
-            <div>
-                <p class="info-icons"><i class="fa-sharp fa-solid fa-envelope"></i></p>
-                <p class="info-title">Email</p>
-                <p class="info-info">example@gmail.com</p>
-                <p class="info-info">example1@gmail.com</p>
-            </div>
-            <div>
-                <p class="info-icons"><i class="fa-sharp fa-solid fa-location-dot"></i></p>
-                <p class="info-title">Location</p>
-                <p class="info-info">Georgia,Guria</p>
-                <p class="info-info">Lanchkuti,Main</p>
-            </div>
-            
-
+      <div class="info-main-div">
+        <div>
+          <p class="info-icons">
+            <i class="fa-sharp fa-solid fa-phone-volume"></i>
+          </p>
+          <p class="info-title">Phone</p>
+          <p class="info-info">+995-12-34-56</p>
+          <p class="info-info">+995-56-34-12</p>
         </div>
+        <div>
+          <p class="info-icons">
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+          </p>
+          <p class="info-title">Email</p>
+          <p class="info-info">example@gmail.com</p>
+          <p class="info-info">example1@gmail.com</p>
+        </div>
+        <div>
+          <p class="info-icons">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+          </p>
+          <p class="info-title">Location</p>
+          <p class="info-info">Georgia,Guria</p>
+          <p class="info-info">Lanchkuti,Main</p>
+        </div>
+      </div>
     </section>
     <footer>
-        <footer class="footer">
-            <div class="footer-box-1">
-                <h3 class="box-1-h3">Plants Shop</h3>
-                <p class="box-1-p">Grow your roots</p>
-                <p class="box-1-p">Buy plants in our site so easy,</p>
-                <div class="footer-logos">
-                    <p><i class="fa-solid fa-sun-plant-wilt"></i></p>
-                    <p><i class="fa-solid fa-tractor"></i></p>
-                    <p><i class="fa-solid fa-bug"></i></p>
-
-                </div>   
-            </div>
-            <div class="footer-box-2">
-                <h3 class="box-2-h3">Friendly companies</h3>
-                <p class="box-2-p">FAO</p>
-                <p class="box-2-p">World of agryculture</p>
-                <p class="box-2-p">Society of Farmers</p>
-            </div>
-            <div class="footer-box-3">
-                <p>Social</p>
-                <p>facebook <i class="fa-brands fa-square-facebook"></i></p>
-                <p>instagram <i class="fa-brands fa-instagram"></i></p>
-                <p>Pinterest <i class="fa-brands fa-pinterest"></i></p>
-                <p>youtube <i class="fa-brands fa-youtube"></i></p>
-                <p>LinkedIn<i class="fa-brands fa-linkedin"></i></p>
-                
-    
-            </div>
-            <div class="footer-box-4">
-                <h3 class="box-1-h3">Contact Info</h3>
-                <p class="footer-info">+995-12-34-56</p>
-                <p class="footer-info">+995-56-34-12</p>
-                <p class="footer-info">example@gmail.com</p>
-                <p class="footer-info">example1@gmail.com</p>
-               
-            </div>
-        </footer>
+      <footer class="footer">
+        <div class="footer-box-1">
+          <h3 class="box-1-h3">Plants Shop</h3>
+          <p class="box-1-p">Grow your roots</p>
+          <p class="box-1-p">Buy plants in our site so easy,</p>
+          <div class="footer-logos">
+            <p><i class="fa-solid fa-sun-plant-wilt"></i></p>
+            <p><i class="fa-solid fa-tractor"></i></p>
+            <p><i class="fa-solid fa-bug"></i></p>
+          </div>
+        </div>
+        <div class="footer-box-2">
+          <h3 class="box-2-h3">Friendly companies</h3>
+          <p class="box-2-p">FAO</p>
+          <p class="box-2-p">World of agryculture</p>
+          <p class="box-2-p">Society of Farmers</p>
+        </div>
+        <div class="footer-box-3">
+          <p>Social</p>
+          <p>facebook <i class="fa-brands fa-square-facebook"></i></p>
+          <p>instagram <i class="fa-brands fa-instagram"></i></p>
+          <p>Pinterest <i class="fa-brands fa-pinterest"></i></p>
+          <p>youtube <i class="fa-brands fa-youtube"></i></p>
+          <p>LinkedIn<i class="fa-brands fa-linkedin"></i></p>
+        </div>
+        <div class="footer-box-4">
+          <h3 class="box-1-h3">Contact Info</h3>
+          <p class="footer-info">+995-12-34-56</p>
+          <p class="footer-info">+995-56-34-12</p>
+          <p class="footer-info">example@gmail.com</p>
+          <p class="footer-info">example1@gmail.com</p>
+        </div>
+      </footer>
     </footer>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
