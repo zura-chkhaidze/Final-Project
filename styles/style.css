@@ -61,6 +61,7 @@
 .topnav #myLinks {
   margin-top: 70px;
 }
+
 .topnav a {
   font-size: 20px;
   margin-top: 50px;
@@ -81,6 +82,14 @@
 }
 
 /*First section*/
+.page-title{
+  position: fixed;
+  font-weight: bold;
+  color:darkred;
+  font-family: "Rubik Maze";
+  z-index: 1;
+  transform: translateX(130px);
+}
 .first-main-div {
   max-width: 1920px;
   width: 100%;
