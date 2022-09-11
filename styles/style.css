@@ -543,6 +543,9 @@
   -ms-transform: translateY(-30px);
   transform: translateY(-30px);
 }
+.shop-paragraph-div-respo{
+  display: none;
+}
 
 .shop-paragraph-div p:nth-child(1) {
   margin-bottom: 20px;
