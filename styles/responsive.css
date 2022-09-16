@@ -6,7 +6,7 @@
 */
 
 /* index responsive*/
-@media (max-width: 1115px) {
+@media (max-width: 1300px) {
   .boxes-div {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -309,7 +309,7 @@
     font-size: 25px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 790px) {
   .grid-container {
     display: -ms-grid;
     display: grid;
@@ -366,7 +366,7 @@
   }
 }
 /* some news responsive*/
-@media (max-width: 1300px) {
+@media (max-width: 1315px) {
   .news-main-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -412,7 +412,7 @@
     align-items: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .news-main-box-1 {
     max-width: 350px;
     width: 100%;
