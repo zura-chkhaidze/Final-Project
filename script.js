@@ -8,6 +8,6 @@ function myFunction() {
   }
 }
 //alert//
-document.getElementById("click me").addEventListener("click", function () {
+document.getElementById("clickme").addEventListener("click", function () {
   window.alert("Message sent!");
 });
